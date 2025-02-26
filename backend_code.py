@@ -2,7 +2,6 @@ import numpy as np
 import  pandas as pd
 
 books = pd.read_csv("C:/Users/avinr/Desktop/Practice/book recomendation/dataset/Books.csv",encoding='latin-1')
-
 books.head()
 books.tail()
 books.columns
