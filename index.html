@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Recommendation System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>📚 Book Recommendation System</h1>
+    </header>
+
+    <main>
+        <h4>Enter Your Favorite Book</h4>
+        <input type="text" id="book-name" placeholder="Enter book name">
+        <input type="number" id="num-suggestions" placeholder="Number of suggestions">
+        <button onclick="getRecommendations()">Get Suggestions</button>
+
+        <h4>Your Recommendations:</h4>
+        <ul id="suggestions-list"></ul>
+    </main>
+</body>
+</html>
